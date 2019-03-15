@@ -1,4 +1,4 @@
-{% set version = "1.4" %}
+{% set version = "1.5.1" %}
 
 package:
   name: ps2ff
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/usgs/ps2ff/archive/v{{ version }}.tar.gz
-  sha256: 7d7b5d30a5524484a5cadb82067bbf4238798dcf3886b3e4d38068861d64d5aa
+  sha256: 423d670ee7f5619fff3d8ae1e8e7369fda17dfe1cecb66e095617a378d44e29f
 
 build:
   number: 0
