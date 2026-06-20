@@ -1,5 +1,5 @@
 {% set name = "ps2ff" %}
-{% set version = "1.5.8" %}
+{% set version = "1.5.9" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/ps2ff-{{ version }}.tar.gz
-  sha256: 183321e29708ed3e9ebee95247c3c676a3d8f6ff5d4d9f1ae9a79629ab3e8018
+  sha256: 9ec9af186a4f69ec5bf46f9350dd323ef4bdba0d050b7270aecbc648971ab78a
 
 build:
   noarch: python
